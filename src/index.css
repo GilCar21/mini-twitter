@@ -1,0 +1,39 @@
+@import "tailwindcss";
+@tailwind utilities;
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+@layer base {
+  body {
+    background-color: var(--color-gray-50);
+    color: var(--color-gray-900);
+    font-family: var(--font-sans);
+  }
+}
+
+@theme {
+  --color-*: initial;
+
+  --color-twitterBlue: #1DA1F2;
+
+  --color-bluet-500: #0D93F2;
+  --color-bluet-600: #314158;
+  --color-bluet-700: #02274F;
+  --color-bluet-800: #0F172B;
+  --color-bluet-900: #070B14;
+  --color-bluet-950: #1D293D;
+
+  --color-brandRed: #EB5757;
+  --color-brandRed-hover: #D64646;
+
+  --color-customWhite-: #FFFFFF;
+  --color-customWhite-100: #FAFAFA;
+
+  --color-customZinc-900: #314158;
+  --color-customZinc-600: #6E767D;
+  --color-customZinc-500: #62748E;
+  --color-customZinc-550: #62748E20;
+  --color-customZinc-200: #90A1B9;
+  --color-customZinc-100: #94A3B8;
+  --color-customZinc-50: #E2E8F0;
+}
