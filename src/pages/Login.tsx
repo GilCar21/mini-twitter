@@ -5,7 +5,7 @@ import { z } from 'zod';
 import { useNavigate, Link } from 'react-router-dom';
 import { Input } from '../components/Input';
 import { Button } from '../components/Button';
-import { Eye, Mail, Settings } from 'lucide-react';
+import { Eye, Mail } from 'lucide-react';
 import { login } from '../services/auth';
 import { useAuthStore } from '../store/useAuthStore';
 
